@@ -1,7 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Harry Liu</title>
+	<link rel="stylesheet" type="text/css" href="./css/MyStyle.css">
+	<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="./js/MyScript.js"></script>
+	<script src="./js/jquery.scrollTo.js"></script>
+	<script src="./js/jquery.localScroll.js"></script>
+
+	<!-- Responsive design - viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
 <body>
-<h1>Hello World!</h1>
-<p>I'm hosted with GitHub Pages</p>
+	<ul class="menu"> 
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li>
+			<a href="#" class="has-sub">Finished</a>
+	    	<ul>
+	    		<li><a href="#">Light</a></li>
+	    		<li><a href="#">Dash</a></li>
+	    		<li><a href="#">5/3/1</a></li>
+	   		</ul>
+	   	</li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+
+	<div id="body">
+		<h1 class="name">Harry Liu.</h1>
+		<p class="description">I am a first-year undergraduate studnet attending the University of Waterloo as a CS Major. This is my website.</p>
+		<a class="button" href="#">Contact</a>
+		<a class="button" href="#">Resume</a>
+		<br>
+		<a id="arrow" href="#description">&#709</a>
+	</div>
+
+	<div id="description">
+		<h2 class="section black">Me.</h2>
+		<p></p>
+		<h2 class="section black">My latest projects.</h2>
+		<div class="center">
+			<div class="project">
+				<h3 class="black product ease">Dash</h3>
+				<a href="#" class="black hide fadein box">view project</a>
+			</div>
+			<div class="project">
+				<h3 class="black product ease">5/3/1</h3>
+				<a href="#" class="black hide fadein box">view project</a>
+			</div>
+		</div>
+
+	</div>
+
+	<footer>
+		<a id="arrow" href="#body">^</a>
+		<br>
+		<p class="notice">&copy 2015 Harry Liu. All rights reserved.</p>
+		<br>
+		<div class="social">
+			<a href="#">Github</a>
+			<span> | </span>
+			<a href="#">Instagram</a>
+			<span> | </span>
+			<a href="#">Stack Overfloww</a>
+		</div>
+	</footer>
 </body>
+
 </html>
