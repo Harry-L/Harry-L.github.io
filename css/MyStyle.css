@@ -208,7 +208,9 @@ ul.menu a {
 	div.project { float: none; }
 	div.project h3{ padding-top: 100px; }
     div.project .hide { opacity: 1; }
-	h1.name { padding-top: 60px;}
+	h1.name { padding-top: 30px; padding-bottom: 30px; }
+
+	p.description { padding-bottom: 30px; }
 
 	ul.menu { height: auto; position: relative;}
 	ul.menu > li { float: none; width: 100%; }
