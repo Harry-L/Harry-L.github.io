@@ -20,6 +20,11 @@ a.box:hover {
 	background-color: #222;
 }
 
+a.box:active {
+	color: #222;
+	background-color: white;
+}
+
 a.button {
 	display: inline-block;
 	width: 150px;
@@ -39,6 +44,11 @@ a.large {
 a.button:hover {
 	color: #222;
 	background-color: white;
+}
+
+a.button:active {
+	color: white;
+	background-color: #222;
 }
 
 div#body {
@@ -123,6 +133,10 @@ h3.product {
 	font-size: 24px;
 	padding-top: 130px;
 	padding-bottom: 30px;
+}
+
+input {
+	color: #222;
 }
 
 p {
