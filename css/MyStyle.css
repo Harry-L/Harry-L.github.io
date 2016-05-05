@@ -67,6 +67,7 @@ div#body {
 div.center {
 	display: inline-block;
 	text-align: center;
+	margin: 20px 0px 0px 0px;
 }
 
 div#description {
@@ -223,6 +224,7 @@ ul.menu a {
 }
 
 @media all and (max-width: 768px) {
+	div.center { margin: 0px; }
 	div.project { float: none; }
 	div.project h3{ padding-top: 100px; }
     div.project .hide { opacity: 1; }
